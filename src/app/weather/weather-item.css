@@ -19,7 +19,7 @@
   font-size: 22px;
 }
 article
-  {
+  {box-shadow: 4px 2px 3px 2px whitesmoke;    
     text-align: center;
     margin-top: 2%;
 }

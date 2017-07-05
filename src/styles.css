@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+	font-family: 'Bellefair', serif;
+	font-family: 'Oswald', sans-serif;
+}	
+.weather-search{
+	text-align: center;
+
+}
+.weather-search button{
+	
+	box-shadow: 4px 2px 3px 2px blac; 
+}
