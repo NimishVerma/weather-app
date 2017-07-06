@@ -11,7 +11,7 @@ import { HttpModule } from '@angular/http';
 import { Http } from '@angular/http';
 import { SidebarComponent } from './sidebar.component';
 import {Component, Optional} from '@angular/core';
-import {MdDialog, MdDialogRef, MdSnackBar} from '@angular/material';
+
 
 
 @NgModule({
@@ -21,14 +21,12 @@ import {MdDialog, MdDialogRef, MdSnackBar} from '@angular/material';
     WeatherListComponent,
     WeatherSearchComponent,
     SidebarComponent,
-    MdDialog,
-    MdDialogRef
-
-  ],
+],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
+    
   ],
   providers: [WeatherService,HttpModule],
 
